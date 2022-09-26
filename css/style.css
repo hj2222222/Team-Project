@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #545454cc;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.head_1 {
+  display: flex;
+  align-items: center;
+}
+
+.head_1 > div > a {
+  text-decoration: none;
+  padding-right: 24px;
+}
+
+.head_2 > a {
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.head_2 > a::after {
+  content: "|";
+}
+
+.head_2 > select {
+  border: none;
+  margin-right: 35px;
+  cursor: pointer;
+}
+body {
+  width: 100%;
+}
+container {
+  width: 100%;
+}
+#banner {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url("../image/banner.jpg");
+  background-position: center;
+  margin-top: 80px;
+}
+#banner_text {
+  width: 45%;
+  padding-top: 125px;
+  margin: 0 auto;
+  font-size: 23px;
+  font-weight: bold;
+}
+#banner_text1 {
+  width: 45%;
+  padding-top: 150px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: white;
+}
+#list {
+  display: flex;
+  margin: 0 auto;
+  width: 14%;
+}
+#list > div {
+  margin: 10px;
+  font-size: 14px;
+}
+#list > div > a {
+  text-decoration: none;
+  color: black;
+}
+#ment1 {
+  font-weight: bold;
+  color: rgba(16, 3, 3, 0.579);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 21px;
+  width: 10%;
+  margin-top: 55px;
+}
+#ment2 {
+  color: rgba(16, 3, 3, 0.579);
+  font-size: 15px;
+  margin: 0 auto;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.line {
+  display: flex;
+  margin: 0 auto;
+  width: 65%;
+}
+.line > a {
+  margin: 10px;
+  width: 25%;
+  text-decoration: none;
+  color: black;
+}
+.line2 {
+  display: flex;
+}
+.text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.text2 {
+  margin-left: 10px;
+  line-height: 30px;
+  font-size: 12px;
+}
+.headline {
+  margin-bottom: 20px;
+}
+container {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  .line {
+    width: 95%;
+  }
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-top: 300px;
+}
+
+.time {
+  padding: 30px;
+  font-size: 14px;
+}
+
+.call {
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.copy {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.marketing {
+  padding: 25px;
+  font-size: 13px;
+}
+
+.money {
+  font-size: 14px;
+}
+
+.money1 {
+  font-weight: bold;
+}
+
+.copyrow {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.footerlast {
+  font-size: 12px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}

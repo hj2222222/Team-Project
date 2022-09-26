@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #545454cc;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.head_1 {
+  display: flex;
+  align-items: center;
+}
+
+.head_1 > div > a {
+  text-decoration: none;
+  padding-right: 24px;
+}
+
+.head_2 > a {
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.head_2 > a::after {
+  content: "|";
+}
+
+.head_2 > select {
+  border: none;
+  margin-right: 35px;
+  cursor: pointer;
+}
+#banner1 {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-image: url("../image/banner2.jpg");
+  background-position: center;
+  margin-top: 80px;
+}
+#banner_text3 {
+  width: 45%;
+  padding-top: 140px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+#menu {
+  display: flex;
+  margin: 0 auto;
+  width: 30%;
+}
+#menu > a {
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+#ques {
+  margin: 0 auto;
+  width: 8%;
+  font-weight: bold;
+  color: black;
+  font-size: 23px;
+  margin-top: 85px;
+}
+#number {
+  color: #545454cc;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 12%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.doc {
+  width: 70%;
+}
+.xxx {
+  display: flex;
+  width: 45%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid #545454cc;
+  height: 40px;
+  color: black;
+}
+.xxx1 {
+  display: flex;
+  width: 45%;
+  margin: 0 auto;
+  border-bottom: 1px solid #545454cc;
+  height: 40px;
+  color: black;
+}
+.num {
+  width: 10%;
+  text-align: center;
+  line-height: 40px;
+}
+.tit {
+  width: 70%;
+  text-align: center;
+  line-height: 40px;
+}
+.tit1 {
+  width: 70%;
+  line-height: 40px;
+  display: flex;
+}
+.tit1 > a {
+  text-decoration: none;
+}
+.sec {
+  margin-right: 10px;
+}
+.aut {
+  width: 15%;
+  text-align: center;
+  line-height: 40px;
+  color: #545454cc;
+  font-size: 12px;
+}
+.time4 {
+  width: 15%;
+  text-align: center;
+  line-height: 40px;
+  color: #545454cc;
+  font-size: 12px;
+}
+#bbutton {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: right;
+  margin-bottom: 80px;
+}
+#bbutton > button {
+  background-color: blue;
+  width: 9%;
+  color: white;
+  text-align: center;
+  height: 27px;
+  font-size: 14px;
+  line-height: 27px;
+}
+#bbutton > button:hover {
+  cursor: pointer;
+}
+#list {
+  display: flex;
+  margin: 0 auto;
+  width: 14%;
+}
+#list > div {
+  margin: 10px;
+  font-size: 14px;
+}
+#list > div > a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-top: 300px;
+}
+
+.time {
+  padding: 30px;
+  font-size: 14px;
+}
+
+.call {
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.copy {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.marketing {
+  padding: 25px;
+  font-size: 13px;
+}
+
+.money {
+  font-size: 14px;
+}
+
+.money1 {
+  font-weight: bold;
+}
+
+.copyrow {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.footerlast {
+  font-size: 12px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+#banner {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url("../image/banner.jpg");
+  background-position: center;
+  margin-top: 80px;
+}
+#banner_text1 {
+  width: 45%;
+  padding-top: 150px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: white;
+}
